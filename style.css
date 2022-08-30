@@ -1,0 +1,7 @@
+* {background-color: #1a0024; color: white; font-family:'Poppins', sans-serif; }
+
+h1 {margin:2rem; display:flex; justify-content: center;}
+
+span {margin:2rem; display:flex; justify-content: center;}
+
+#demo {font-size: 4rem; display: flex; justify-content: center;}
