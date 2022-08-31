@@ -2,19 +2,29 @@
     <head>
         <title>Mini Project: Countdown</title>
         <link href="./style.css" rel="stylesheet"/>
-        <script src="./script.js"></script>
+        <script src="./main.js" defer></script>
     </head>
 
     <body>
         <div>
-            <h1 className="title">Mini Project: Countdown</h1>
+            <h1 className="title">Mini Project: Countdown Timer</h1>
             <span>How many days left until this year ends:</span>
 
-            <div className="countdown">
+
+            <div class="countdown">        
+                <p class="count" id="days"></p>
+                <p class="legend"> Days</p>
+                <p class="count" id="hours"></p>
+                <p class="legend">Hours</p>
+                <p class="count" id="minutes"></p> 
+                <p class="legend">Minutes</p>
+                <p class="count" id="seconds"></p>
+                <p class="legend">Seconds</p>
+
                 <p id="demo"></p>
             </div>
+
         </div>
     </body>
-
 
 </html>

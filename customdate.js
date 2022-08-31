@@ -1,3 +1,19 @@
+const form = document.querySelector("#setDate");
+
+form.addEventListener("click", function getInputDate(e){
+  e.preventDefault();
+
+  const formInput = document.querySelector("#inputDate");
+  const inputDate = formInput.value;
+  
+  return(inputDate);
+
+});
+
+// let endDate = getInputDate()
+
+//
+
 let defaultEndDate = new Date("Dec 31, 2022 23:59:59");
 
 let x = setInterval(() => {

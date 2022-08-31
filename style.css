@@ -1,7 +1,22 @@
 * {background-color: #1a0024; color: white; font-family:'Poppins', sans-serif; }
 
+input {background: white; border-radius: 0.5rem; height: 2rem; border-color: blueviolet; color:#1a0024}
+
+input:hover {background: blueviolet; color: white;}
+
+button{background: blueviolet;color:white;display: flex;}
+
+#setDate input { background: blueviolet; color:white;}
+
 h1 {margin:2rem; display:flex; justify-content: center;}
 
 span {margin:2rem; display:flex; justify-content: center;}
 
-#demo {font-size: 4rem; display: flex; justify-content: center;}
+#demo {font-size: 4.5rem; display: flex; justify-content: center;}
+
+.topbar {background: white; color:#1a0024; padding:0.5rem; margin:0;}
+
+.countdown {display:flex;flex-direction: row; justify-content: center;}
+
+.count {background: black;margin:0; padding:1rem; text-align:center; font-size: 5rem;}
+.legend {background: black; color:yellow; margin:0; padding:1rem; text-align: center;font-size:2rem; vertical-align: bottom;}
