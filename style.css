@@ -10,7 +10,8 @@ button{background: blueviolet;color:white;display: flex;}
 
 h1 {margin:2rem; display:flex; justify-content: center;}
 
-.topbar {background: white; color:#1a0024; padding:0.5rem; margin:0; display: flex; flex-direction: row; justify-content:space-around;}
+.topbar {background: white; color:#1a0024; padding:0.2rem; margin:0; display: flex; flex-direction: row; justify-content:space-around;}
+
 .topbar p {color:#1a0024;background: white;}
 
 span {margin:2rem; display:flex; justify-content: center;}
