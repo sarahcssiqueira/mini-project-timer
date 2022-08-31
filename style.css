@@ -18,9 +18,17 @@ span {margin:2rem; display:flex; justify-content: center;}
 
 #demo {font-size: 4.5rem; display: flex; justify-content: center;}
 
-
-
 .countdown {display:flex;flex-direction: row; justify-content: center;}
 
 .count {background: black;margin:0; padding:1rem; text-align:center; font-size: 5rem;}
-.legend {background: black; color:yellow; margin:0; padding:1rem; text-align: center;font-size:2rem; vertical-align: bottom;}
+.legend {background: black; color:yellow; margin:0; padding:1rem; text-align: center;font-size:1.5rem; 
+    vertical-align: bottom;}
+
+
+.countdownCustomDate {display: flex; flex-direction: column;padding:5rem}
+button {width: 5rem; height: 3rem; margin:auto;border-radius: 1rem; border-style: hidden;font-size: 1.1rem; text-align: center;}
+button:hover {background:rgb(80, 25, 131);color:whitesmoke;
+    margin:auto;border-radius: 1rem; border-style: hidden;}
+
+.footer {background: black;margin:0; margin-top: 5rem; padding:1rem;display: flex; flex-direction: row; 
+    justify-content: center;}

@@ -4,35 +4,45 @@
         <link href="./style.css" rel="stylesheet"/>
         <script src="./main.js" defer></script>
     </head>
-
     <body>
         <div class="topbar">
             <p>This project it's a part of a series of mini projects</p>
             <p>a</p>
             <p>Check other cool ideas on <a href="https://forfunprojects.ga/">For Fun Projects</a></p>
         </div>
-
         <div class="header">
             <h1 className="title">Mini Project: Countdown Timer</h1>
             <span>How many days left until this year ends:</span>
         </div>
-
         <div class="content">
-            <div class="countdown">        
-                <p class="count" id="days"></p>
-                <p class="legend"> Days</p>
-                <p class="count" id="hours"></p>
-                <p class="legend">Hours</p>
-                <p class="count" id="minutes"></p> 
-                <p class="legend">Minutes</p>
-                <p class="count" id="seconds"></p>
-                <p class="legend">Seconds</p>
-
+            <div class="countdown">
+                <div class="unitCount">
+                    <p class="count" id="days"></p>
+                    <p class="legend">Days</p>
+                </div>
+                <div class="unitCount">
+                    <p class="count" id="hours"></p>
+                    <p class="legend">Hours</p>
+                </div>
+                <div class="unitCount">
+                    <p class="count" id="minutes"></p> 
+                    <p class="legend">Minutes</p>
+                </div>
+                <div class="unitCount">
+                    <p class="count" id="seconds"></p>
+                    <p class="legend">Seconds</p>
+                </div>    
                 <p id="demo"></p>
             </div>
-
+            <div class="countdownCustomDate">
+                <span>To see how many days left until another date, click on the button above:</span>
+                <button>Select Date</button>    
+            </div>
         </div>
-
     </body>
-
+    <footer>
+        <div class="footer">
+            All rights reserved
+        </div>
+    </footer>
 </html>
